@@ -12,12 +12,10 @@ also part of the control software of Gershow et al 2012 (Nature Methods) and are
 
 2. Data analysis
 
-2.1 Pre-Processing 
+2.1 Data Processing 
 
-Functional volumetric calcium imaging was conducted with a spinning disk confocal micrscope and data saved in .nd2 format.
-
-To extract data and format it for motion correction we used the matlab script Format_data_and_motion_correction.m. As described in the Methods and Materials of the paper, motion correction is conducted with the package MOCO. Example movies of the antennal lobe (AL) before and after motion correction are provided in this folder under the names AL_wo_MC.mp4 and AL_w_MC.mp4
+The behavioral traces are processed in MATLAB using functions from MAGAT Analyzer. The script Process_behavior_data.m was used to this step.
 
 2.2  Turn rates and run rates
 
-The motion corrected movies are then processed using CNMF techniques as described in the Methods and Materials of the paper, using the Paninski lab toolbox for CNMF demixing, denoising, and deconvolving. The Script that implement these code using functions from the toolbox is in Calcium_data_analysis.m
+The analysis of behavioral state transitions, turn rates, run rates, speed and other parameters was conducted with the Analyze_behavioral_dynamics.m script.
