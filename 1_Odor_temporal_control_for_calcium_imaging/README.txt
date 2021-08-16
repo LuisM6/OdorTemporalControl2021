@@ -17,5 +17,5 @@ Once the Systems Identification window opens, select File>Open and then choose O
 
 2. Odor control virtual instruments
 
-The LAbVIEW software needed to run the olfactometer is in the folder Olfactometer_for_Microscopy 
+The LabVIEW software needed to run the olfactometer is in the folder Olfactometer_for_Microscopy. The main VI is Odor_control_m.vi and it calls all the other sub-VIs. Most of the sub-VIs were also part of the control software of Gershow et al 2012 (Nature Methods).
 
