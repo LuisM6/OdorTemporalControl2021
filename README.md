@@ -6,10 +6,8 @@ Automated Control of Odor Dynamics
 TABLE OF CONTENTS
 ----------------------------------------------------------
 
-1. Odor temporal control for calcium imaging
-2. Odor temporal control for behavior
-3. Calcium imaging data analysis
-4. Behavior data analysis
+1. Odor temporal control for calcium imaging and data analysis
+2. Odor temporal control for behavior and data analysis
 
 ----------------------------------------------------------
 INSTRUCTIONS
