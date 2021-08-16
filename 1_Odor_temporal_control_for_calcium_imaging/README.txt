@@ -6,5 +6,5 @@ Questions: luishernandeznunez@fas.harvard.edu
 
 1. NARX model
 
-The NARX and linear models can be found in the file 
+The NARX and linear models can be found in the file Olfactometer_
 
